@@ -4,5 +4,6 @@ public class A {
         System.out.println(1111111);
         System.out.println("sasfxdfdf");
         System.out.println(22222);
+        System.out.println(000000);
     }
 }
