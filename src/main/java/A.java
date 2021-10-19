@@ -3,5 +3,6 @@ public class A {
         System.out.println("m1");
         System.out.println(1111111);
         System.out.println("sasfxdfdf");
+        System.out.println(22222);
     }
 }
