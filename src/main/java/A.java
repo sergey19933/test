@@ -8,5 +8,6 @@ public class A {
         System.out.println(map.get(new B(5555)));
         System.out.println("1");
         System.out.println("sdgdfgdf");
+        System.out.println("sdgdfgdf");
     }
 }
