@@ -9,5 +9,6 @@ public class A {
         System.out.println("1");
         System.out.println("sdgdfgdf");
         System.out.println("sdgdfgdf");
+        //фвп
     }
 }
