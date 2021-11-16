@@ -10,5 +10,6 @@ public class A {
         System.out.println("sdgdfgdf");
         System.out.println("sdgdfgdf");
         //фвп
+        //ывпвп
     }
 }
