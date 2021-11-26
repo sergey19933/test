@@ -7,5 +7,6 @@ public class A {
         map.put(new B(5555),"Alla");
         System.out.println(map.get(new B(5555)));
         System.out.println("1");
+        System.out.println("2");
     }
 }
