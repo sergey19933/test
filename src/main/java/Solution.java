@@ -25,6 +25,7 @@ public class Solution {
                 temp1 = number.indexOf(nnn);
             }
         }
+        //aaa
         if (count > countNot)
             System.out.println(temp1+1);
         else
