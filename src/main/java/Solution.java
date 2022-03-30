@@ -15,11 +15,10 @@ public class Solution {
 
         String film2 = "Аватар";
         int income2 = 2810;
-
+//asd
         String film3 = "Тёмный рыцарь";
         int income3 = 1084;
-//ytujuktku
-        ///sdgsdgdfhgjgfhkfgj
+
         // Напишите реализацию нового метода ниже
 return null;
     }
