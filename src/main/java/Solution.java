@@ -12,7 +12,7 @@ public class Solution {
     public static String findHighestGrossingFilm() {
         String film1 = "Титаник";
         int income1 = 2194;
-
+//2
         String film2 = "Аватар";
         int income2 = 2810;
 //asd
