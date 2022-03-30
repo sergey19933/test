@@ -1,34 +1,25 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.List;
+import java.util.Scanner;
 
 public class Solution {
-    public static int countNot = 0;
-    public static int count = 0;
 
-    public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        int n = Integer.parseInt(bufferedReader.readLine());
-        List<String> number = Arrays.asList(bufferedReader.readLine().split(" "));
-        int temp = 0;
-        int temp1 = 0;
-        for (int i = 0; i < n; i++) {
-            String nnn = number.get(i);
-            int nn = Integer.parseInt(nnn);
-            if (nn % 2 == 0) {
-                count++;
-                temp = number.indexOf(nnn);
-            } else {
-                countNot++;
-                temp1 = number.indexOf(nnn);
-            }
-        }
-        if (count > countNot)
-            System.out.println(temp1+1);
-        else
-            System.out.println(temp+1);
+    // Ниже вызовите новый метод
+    public static void main(String[] args) {
+        // Ниже вызовите новый метод
+        String highestGrossingFilm = findHighestGrossingFilm();
+        System.out.println("Самый кассовый фильм: " + highestGrossingFilm);
+    }
+
+    public static String findHighestGrossingFilm() {
+        String film1 = "Титаник";
+        int income1 = 2194;
+
+        String film2 = "Аватар";
+        int income2 = 2810;
+
+        String film3 = "Тёмный рыцарь";
+        int income3 = 1084;
+
+        // Напишите реализацию нового метода ниже
+return null;
     }
 }
-
