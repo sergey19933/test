@@ -18,7 +18,7 @@ public class Solution {
 
         String film3 = "Тёмный рыцарь";
         int income3 = 1084;
-
+//dsg
         // Напишите реализацию нового метода ниже
 return null;
     }
