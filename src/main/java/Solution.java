@@ -10,7 +10,7 @@ public class Solution {
 // new version
     //sdgsfhdfhd
     public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(bufferedReader.readLine());
         List<String> number = Arrays.asList(bufferedReader.readLine().split(" "));
         int temp = 0;
