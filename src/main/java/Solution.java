@@ -7,7 +7,7 @@ import java.util.List;
 public class Solution {
     public static int countNot = 0;
     public static int count = 0;
-
+// new version
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(bufferedReader.readLine());
