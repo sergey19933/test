@@ -15,6 +15,7 @@ public class Solution {
 
     public static void main(String[] args) {
 
+        //old
         String a="ткрыт вып №9090165466".replaceAll("\\D","").substring(0,5);
         System.out.println(a);
     }
