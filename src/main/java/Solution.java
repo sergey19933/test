@@ -1,25 +1,22 @@
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+
+/*
+Задача по алгоритмам
+*/
+
 
 public class Solution {
 
-    // Ниже вызовите новый метод
     public static void main(String[] args) {
-        // Ниже вызовите новый метод
-        String highestGrossingFilm = findHighestGrossingFilm();
-        System.out.println("Самый кассовый фильм: " + highestGrossingFilm);
+
+        String a="ткрыт вып №9090165466".replaceAll("\\D","").substring(0,5);
+        System.out.println(a);
     }
 
-    public static String findHighestGrossingFilm() {
-        String film1 = "Титаник";
-        int income1 = 2194;
-//2
-        String film2 = "Аватар";
-        int income2 = 2810;
-//asd
-        String film3 = "Тёмный рыцарь";
-        int income3 = 1084;
-
-        // Напишите реализацию нового метода ниже
-return null;
-    }
 }
